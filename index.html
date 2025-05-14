@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="cursor-glow"></div>
+
+    <header>
+        <nav>
+            <div class="logo">NK</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="contact-btn">Contact</button>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <!-- <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="name">Kaneriya Neel</h1>
+                    <h2 class="title">Full Stack Developer <span class="accent">|</span> Problem Solver <span class="accent">|</span>Innovator</h2>
+                    <p class="intro">Building modern web experiences with clean code and powerful backend logic.</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="cta-primary">Hire Me</a>
+                        <a href="https://drive.google.com/file/d/1xMIm1Drvi3H6Z8TCOx8WgI7aezYAaqBt/view?usp=drive_link"
+                            target="_blank" class="cta-secondary" download>View Resume</a>
+                        <a href="#contact" class="cta-tertiary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll Down</span>
+                <div class="scroll-arrow">↓</div>
+            </div>
+        </section> -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="name">Kaneriya Neel</h1>
+                    <h2 class="title">
+                        Full Stack Developer <span class="accent">|</span>
+                        <span class="dynamic-text-wrapper">
+                            <span id="dynamicText" class="dynamic-text">Problem Solver</span>
+                        </span>
+                    </h2>
+                    <p class="intro">
+                        Building modern web experiences with clean code and powerful backend logic.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="cta-primary">Hire Me</a>
+                        <a href="https://drive.google.com/file/d/1xMIm1Drvi3H6Z8TCOx8WgI7aezYAaqBt/view?usp=drive_link"
+                            target="_blank" class="cta-secondary" download>View Resume</a>
+                        <a href="#contact" class="cta-tertiary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll Down</span>
+                <div class="scroll-arrow">&#8595;</div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-image">
+                        <div class="image-container">
+                            <img src="./image/neel.jpg" alt="Neel Kaneriya">
+                            <div class="image-overlay"></div>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h3>Hello, I'm Kaneriya Neel</h3>
+                        <div class="status">
+                            <span class="status-badge">Final Year IT Student</span>
+                            <span class="status-badge">Intern at esparkbiz</span>
+                        </div>
+                        <p>I'm a passionate Full Stack Developer with a strong interest in building scalable web
+                            applications and solving complex problems. My journey in tech started 4 years ago, and I've
+                            been in love with coding ever since.</p>
+                        <p>I specialize in JavaScript ecosystems, particularly React for frontend and Node.js for
+                            backend development. I enjoy creating intuitive user interfaces and robust server
+                            architectures.</p>
+                        <h4>My Tech Stack</h4>
+                        <div class="tech-stack">
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>MongoDB</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="resume-link">
+                            <a href="https://drive.google.com/file/d/1xMIm1Drvi3H6Z8TCOx8WgI7aezYAaqBt/view?usp=drive_link"
+                                target="_blank" class="btn-resume">
+                                <i class="fas fa-file-alt"></i>Download Resume
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>Skills</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="skills-content">
+                    <div class="skills-category">
+                        <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                                <div class="skill-info">
+                                    <h4>HTML5</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                                <div class="skill-info">
+                                    <h4>CSS3</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-js"></i></div>
+                                <div class="skill-info">
+                                    <h4>JavaScript</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-react"></i></div>
+                                <div class="skill-info">
+                                    <h4>React</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-angular"></i></div>
+                                <div class="skill-info">
+                                    <h4>Angular</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-bootstrap"></i></div>
+                                <div class="skill-info">
+                                    <h4>Bootstrap</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-sass"></i></div>
+                                <div class="skill-info">
+                                    <h4>TailwindCSS</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h3><i class="fas fa-server"></i> Backend</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                                <div class="skill-info">
+                                    <h4>Node.js</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                                <div class="skill-info">
+                                    <h4>Express.js</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-php"></i></div>
+                                <div class="skill-info">
+                                    <h4>PHP</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 65%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                                <div class="skill-info">
+                                    <h4>MongoDB</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                                <div class="skill-info">
+                                    <h4>MySQL</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                                <div class="skill-info">
+                                    <h4>Git</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-github"></i></div>
+                                <div class="skill-info">
+                                    <h4>GitHub</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fas fa-exchange-alt"></i></div>
+                                <div class="skill-info">
+                                    <h4>Postman</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon"><i class="fab fa-figma"></i></div>
+                                <div class="skill-info">
+                                    <h4>Figma</h4>
+                                    <div class="skill-bar">
+                                        <div class="skill-level" style="width: 70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Experience Section -->
+        <section id="experience" class="experience">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>Experience</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">
+                            <span>(Jan)2025 <br>-(Jun)2025 </span>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Full Stack Developer</h3>
+                            <h4>esparkbiz</h4>
+                            <p class="timeline-tech">React.js,Angular,JavaScript,PHP,Python,SQL,Node.js </p>
+                            <ul>
+                                <li>Developed and maintained client websites using React and Node.js</li>
+                                <li>Implemented responsive designs and ensured cross-browser compatibility</li>
+                                <li>Collaborated with the design team to create intuitive user interfaces</li>
+                                <li>Optimized application performance by 40% through code refactoring</li>
+                                <li>Participated in daily stand-ups and sprint planning meetings</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">
+                            <span>(july)2024 - (june)2024</span>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Frontend Developer </h3>
+                            <h4>esparkbiz</h4>
+                            <p class="timeline-tech">HTML, CSS, JavaScript, Bootstrap</p>
+                            <ul>
+                                <li>Designed and developed responsive websites for small businesses</li>
+                                <li>Created custom WordPress themes and plugins</li>
+                                <li>Implemented SEO best practices to improve client website rankings</li>
+                                <li>Provided ongoing maintenance and support for client websites</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">
+                            <span>2021 - 2022</span>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>IT Support Volunteer</h3>
+                            <h4>Local Community Center</h4>
+                            <p class="timeline-tech">Troubleshooting, Network Setup, Basic Web Development</p>
+                            <ul>
+                                <li>Provided technical support for community center staff and visitors</li>
+                                <li>Set up and maintained the center's computer network</li>
+                                <li>Created and maintained a simple website for the community center</li>
+                                <li>Conducted basic computer literacy workshops for community members</li>
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>Projects</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./image/Loveable.png" alt="Loveable-Paws">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://loveablepaws.vercel.app/" class="project-link"><i
+                                            class="fas fa-external-link-alt"></i> Live
+                                        Demo</a>
+                                    <a href="https://github.com/NeelKaneriya/Loveable-Paws-" class="project-link"><i
+                                            class="fab fa-github"></i> GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Loveable-Paws</h3>
+                            <p>"Loveable Paws is a heartwarming pet care project dedicated to connecting pet lovers with
+                                trusted services and products. It promotes animal well-being through accessible
+                                resources, adoption support, and community engagement."
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>Css</span>
+                                <span>JavaScript</span>
+                                <span>Node.js</span>
+                                <span>Express</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="project-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li>User authentication and profile management</li>
+                                    <li>Pet adoption listings with search and filters</li>
+                                    <li>Appointment booking system for pet services</li>
+                                    <li>Responsive and mobile-friendly design</li>
+                                    <li>Email notifications for bookings and updates</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./image/nikesole.png" alt="NikeSole Citadel">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live
+                                        Demo</a>
+                                    <a href="https://github.com/NeelKaneriya/shop.co" class="project-link"><i
+                                            class="fab fa-github"></i> GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>NikeSole Citadel</h3>
+                            <p>NikeSole Citadel is a sleek, modern e-commerce website designed for showcasing and
+                                selling Nike shoes. It offers smooth navigation, a user-friendly interface, and
+                                essential shopping features for a seamless experience.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                            </div>
+                            <div class="project-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li>User authentication and profile system</li>
+                                    <li>Product catalog with search and filters</li>
+                                    <li>Shopping cart and order placement</li>
+                                    <li>Responsive design for all device sizes</li>
+                                    <li>Admin panel for managing products and users</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./image/Jobportal.png" alt="Job-Portal">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live
+                                        Demo</a>
+                                    <a href="https://github.com/NeelKaneriya/Job-portal" class="project-link"><i
+                                            class="fab fa-github"></i> GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Job-Portal</h3>
+                            <p>The Job Portal is a dynamic web application that connects job seekers with employers. It
+                                allows users to search and apply for jobs, while employers can post and manage job
+                                listings with ease.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="project-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li>User registration and login for job seekers and employers</li>
+                                    <li>Job posting and application system</li>
+                                    <li>Search and filter jobs by category, location, or keywords</li>
+                                    <li>Admin dashboard to manage users and job listings</li>
+                                    <li>Responsive design for seamless experience on all devices</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./image/foodies.png" alt="Foodies">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live
+                                        Demo</a>
+                                    <a href="https://github.com/NeelKaneriya/Food" class="project-link"><i
+                                            class="fab fa-github"></i> GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Foodies</h3>
+                            <p>Foodies is a modern food ordering website that allows users to browse restaurants, view
+                                menus, and place online orders quickly. It offers an intuitive user experience with
+                                seamless navigation and responsive design.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+
+                            <div class="project-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li>Restaurant and menu browsing with search and filter</li>
+                                    <li>User authentication and profile management</li>
+                                    <li>Cart system and order placement functionality</li>
+                                    <li>Real-time order tracking and status updates</li>
+                                    <li>Responsive design for mobile and desktop users</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./image/MBX.png" alt="Mobile-exchange">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live
+                                        Demo</a>
+                                    <a href="https://github.com/NeelKaneriya/MBX" class="project-link"><i
+                                            class="fab fa-github"></i> GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Mobile-exchange</h3>
+                            <p>Mobile Exchange is an online platform that enables users to buy, sell, and exchange used
+                                smartphones seamlessly. It ensures a safe, user-friendly environment for peer-to-peer
+                                mobile transactions.</p>
+                            <div class="project-tech">
+                                <span>Flutter</span>
+                                <span>Dart</span>
+                                <span>Firebase</span>
+                                <span>Cloud Firestore</span>
+                                <span>Android Studio</span>
+                            </div>
+
+                            <div class="project-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li>Secure user registration and login</li>
+                                    <li>Create and browse mobile listings with images</li>
+                                    <li>Advanced search and filtering (brand, price, condition)</li>
+                                    <li>In-app chat between buyers and sellers</li>
+                                    <li>Admin panel to manage users and listings</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./image/secure vault.jpg" alt="Secure Vault">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live
+                                        Demo</a>
+                                    <a href="https://github.com/NeelKaneriya/Secure-Vault" class="project-link"><i
+                                            class="fab fa-github"></i> GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Secure Vault</h3>
+                            <p>Secure Vault is a password manager that allows users to securely store and manage
+                                passwords and other sensitive data. It features strong encryption and a user-friendly
+                                interface.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="project-features">
+                                <h4>Key Features:</h4>
+                                <ul>
+                                    <li>User registration and authentication with JWT</li>
+                                    <li>Secure password storage with encryption</li>
+                                    <li>Generate strong passwords</li>
+                                    <li>Responsive design for mobile and desktop users</li>
+                                    <li>Data backup and restore functionality</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>Education</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="education-content">
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="education-info">
+                            <h3>Diploma in Information Technology</h3>
+                            <h4>Silver Oak University</h4>
+                            <p class="education-date">2022 - 20225 </p>
+                            <div class="education-details">
+                                <h5>Relevant Coursework:</h5>
+                                <ul>
+                                    <li>Web Development</li>
+                                    <li>Database Management</li>
+                                    <li>Software Engineering</li>
+                                    <li>Data Structures and Algorithms</li>
+                                    <li>Mobile Application Development</li>
+                                    <li>Full-Stack Development</li>
+                                </ul>
+                            </div>
+
+                            <div class="education-achievements">
+                                <h5>Achievements:</h5>
+                                <ul>
+                                    <li>Dean's List: 2021, 2022, 2023</li>
+                                    <li>Best Project Award: Loveable-Paws (2025)</li>
+                                    <li>Technical Club President (2023-2024)</li>
+                                    <li>Completed 2000+ hours of Frontend Development</li>
+                                    <li>Internships at eSparkBiz </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>Certifications & Achievements</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="certifications-grid">
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="certification-info">
+                            <h3>Create Engaging Video with Google Vids</h3>
+                            <h4>Google</h4>
+                            <p class="certification-date">27th March 2025</p>
+                            <a href="https://drive.google.com/file/d/14osjuNqneYT--5U4Oz3QcPO40UWtiUh0/view?usp=drive_link"
+                                target="_blank" class="certification-link">View Certificate</a>
+                        </div>
+                    </div>
+
+
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="certification-info">
+                            <h3>GitHub Copilot Fundamentals</h3>
+                            <h4>GitHub</h4>
+                            <p class="certification-date">12th May 2025</p>
+                            <a href="https://drive.google.com/file/d/1ThVzW6lCPdQ9NqWkVd4smQA-RB11y8lV/view?usp=drive_link"
+                                target="_blank" class="certification-link">View Certificate</a>
+                        </div>
+                    </div>
+
+
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="certification-info">
+                            <h3>ChatGPT Advanced Course</h3>
+                            <h4>OpenAI</h4>
+                            <p class="certification-date">3rd April 2025</p>
+                            <a href="https://drive.google.com/file/d/1eDcnAqjFVVVI5Z0aDsYr8r_shwvo7mqT/view?usp=drive_link"
+                                target="_blank" class="certification-link">View Certificate</a>
+                        </div>
+                    </div>
+
+
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="certification-info">
+                            <h3>React - The Complete Guide</h3>
+                            <h4>Udemy</h4>
+                            <p class="certification-date">January 2023</p>
+                            <a href="#" class="certification-link">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>Testimonials</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="testimonials-slider">
+                    <div class="testimonial-card active">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">Your leadership in the 'Loveable Paws' project truly stood out. You
+                            demonstrated great technical and coordination skills, which led the project to win the Best
+                            Project Award. An inspiring team player!</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">
+                                <img src="https://via.placeholder.com/100" alt="Priya Mehta">
+                            </div>
+                            <div class="testimonial-info">
+                                <h4>Priya Mehta</h4>
+                                <p>Team Member, Loveable Paws</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">You showed consistent dedication during your internship at
+                            eSparkBiz. Your work on the Job Portal project was clean, efficient, and met real-world
+                            expectations. A future-ready full-stack developer!</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">
+                                <img src="https://via.placeholder.com/100" alt="Rakesh Patel">
+                            </div>
+                            <div class="testimonial-info">
+                                <h4>Rakesh Patel</h4>
+                                <p>Senior Developer, eSparkBiz</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">Your growth in the technical domain has been exceptional. As
+                            Technical Club President and Dean’s List achiever for 3 consecutive years, you’ve shown
+                            great promise as a future tech leader.</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">
+                                <img src="https://via.placeholder.com/100" alt="Dr. Emily Rodriguez">
+                            </div>
+                            <div class="testimonial-info">
+                                <h4>Dr. Emily Rodriguez</h4>
+                                <p>Professor, Silver Oak University</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-dots">
+                        <span class="testimonial-dot active"></span>
+                        <span class="testimonial-dot"></span>
+                        <span class="testimonial-dot"></span>
+                    </div>
+                    <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="blog">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>Blog</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="blog-grid">
+
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="./image/pexels-freestockpro-12945055.jpg" alt="Blog Post 1">
+                            <div class="blog-date">
+                                <span>20</span>
+                                <span>Apr</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <h3>How We Built Loveable Paws – A Pet Care Platform</h3>
+                            <p>Take a look behind the scenes of our award-winning project and how we used full-stack
+                                development to make it work...</p>
+                            <div class="blog-meta">
+                                <span><i class="fas fa-tag"></i> Full-Stack</span>
+                                <span><i class="fas fa-comment"></i> 14 Comments</span>
+                            </div>
+                            <a href="#" class="blog-read-more">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="./image/pexels-fauxels-3184424.jpg" alt="Blog Post 2">
+                            <div class="blog-date">
+                                <span>05</span>
+                                <span>Apr</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <h3>My Internship Experience at eSparkBiz</h3>
+                            <p>From working on real client projects to improving my frontend and backend skills — here’s
+                                what I learned during my internship...</p>
+                            <div class="blog-meta">
+                                <span><i class="fas fa-tag"></i> Internship</span>
+                                <span><i class="fas fa-comment"></i> 9 Comments</span>
+                            </div>
+                            <a href="#" class="blog-read-more">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="./image/pexels-julia-m-cameron-4145153.jpg" alt="Blog Post 3">
+                            <div class="blog-date">
+                                <span>15</span>
+                                <span>Mar</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <h3>Creating a Doctor Appointment System Using MERN Stack</h3>
+                            <p>Learn how I built a secure and feature-rich appointment system with React, Node.js,
+                                MongoDB, and JWT...</p>
+                            <div class="blog-meta">
+                                <span><i class="fas fa-tag"></i> MERN</span>
+                                <span><i class="fas fa-comment"></i> 11 Comments</span>
+                            </div>
+                            <a href="#" class="blog-read-more">Read More</a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <div class="blog-image">
+                            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
+                                alt="Blog Post 4">
+                            <div class="blog-date">
+                                <span>05</span>
+                                <span>May</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <h3>Getting Started with Flutter for Mobile App Development</h3>
+                            <p>Explore how Flutter simplifies mobile app development with its single codebase, hot
+                                reload, and beautiful UI components...</p>
+                            <div class="blog-meta">
+                                <span><i class="fas fa-tag"></i> Flutter</span>
+                                <span><i class="fas fa-comment"></i> 9 Comments</span>
+                            </div>
+                            <a href="#" class="blog-read-more">Read More</a>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="blog-view-all">
+                    <a href="#" class="btn-view-all">View All Posts</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>Contact Me</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>neelkaneriya28@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Location</h3>
+                                <p>Ahmedabad, Gujarat, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Phone</h3>
+                                <p>+91 93130 91841</p>
+                            </div>
+                        </div>
+                        <div class="contact-social">
+                            <h3>Connect With Me</h3>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/neelkaneriya28/" class="social-icon"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <a href="https://github.com/NeelKaneriya" class="social-icon"><i
+                                        class="fab fa-github"></i></a>
+                                <a href="https://x.com/NeelKaneri48195" class="social-icon"><i
+                                        class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/neel__kaneriya_28/" class="social-icon"><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                                <label for="name">Your Name</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                                <label for="email">Your Email</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                                <label for="subject">Subject</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                                <label for="message">Your Message</label>
+                            </div>
+                            <button type="submit" class="btn-submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="logo">Neel Kaneiya</div>
+                <p>Crafting innovative web solutions that empower users and elevate digital experiences.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Connect</h3>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/neelkaneriya28/" class="social-icon"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/NeelKaneriya" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://x.com/NeelKaneri48195" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/neel__kaneriya_28/" class="social-icon"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Neel Kaneriya. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <div class="background">
+        <div class="shape shape1"></div>
+        <div class="shape shape2"></div>
+        <div class="shape shape3"></div>
+        <div class="grid"></div>
+    </div>
+
+    <script src="./scrippt.js"></script>
+    <script>
+        // Initialize skill bar animations
+        document.addEventListener('DOMContentLoaded', () => {
+            const skillLevels = document.querySelectorAll('.skill-level');
+            skillLevels.forEach(skill => {
+                const width = skill.style.width;
+                skill.style.setProperty('--skill-width', width);
+                skill.style.width = '0';
+            });
+
+            // Observe skill bars and animate them when in view
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.animation = 'skill-fill 1.5s ease-out forwards';
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.2 });
+
+            skillLevels.forEach(skill => {
+                observer.observe(skill);
+            });
+        });
+    </script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("36Xv4o4ObqCjl6uQn"); // Your EmailJS public key
+        })();
+
+        document.getElementById("contactForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            // Show loading state
+            const submitBtn = this.querySelector('.btn-submit');
+            const originalText = submitBtn.textContent;
+            submitBtn.textContent = "Sending...";
+            submitBtn.disabled = true;
+
+            emailjs.sendForm("service_pnocuy2", "template_19j3fqf", this)
+                .then(() => {
+                    // Success message
+                    submitBtn.textContent = "Message Sent!";
+                    setTimeout(() => {
+                        submitBtn.textContent = originalText;
+                        submitBtn.disabled = false;
+                        this.reset();
+                    }, 2000);
+                }, (error) => {
+                    // Error message
+                    submitBtn.textContent = "Failed to Send";
+                    console.error("EmailJS Error:", error);
+                    setTimeout(() => {
+                        submitBtn.textContent = originalText;
+                        submitBtn.disabled = false;
+                    }, 2000);
+                });
+        });
+    </script>
+</body>
+
+</html>
